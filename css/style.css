@@ -95,3 +95,50 @@ img {
 .social-icons a{
 	color: #F74F54;
 }
+
+.filter{
+    position: absolute;
+    font-size: 0.9rem;
+    color: #F74F54;
+    margin-top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+}
+
+.filter a{
+    text-decoration: none;
+    color: #F74F54;
+    text-align: center;
+
+}
+
+.filter .tag {
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.filter .tag.active {
+    background-color: #F74F54;
+    color: #f5f5f5;
+}
+
+.filter .tag:hover, .flash-pri, .pri-bd-l {
+border: 1px solid #f98083;
+}
+
+.filter .tag, .filter .tag.active, .pri-bd, .tag {
+border: 1px solid #F74F54;
+}
+
+.filter h2{
+    color: black;
+}
