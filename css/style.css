@@ -1,5 +1,5 @@
 html{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Arima Madurai', cursive;
 }
 
 img {
@@ -141,4 +141,15 @@ border: 1px solid #F74F54;
 
 .filter h2{
     color: black;
+}
+
+.thumbnail{
+    border: solid black;
+    width: 500px;
+    height: 400px;
+}
+
+#project{
+    position: absolute;
+    margin-top: 15rem;
 }
