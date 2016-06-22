@@ -14,3 +14,5 @@ $('.filter .tag').click(function() {
 });
 
 $( ".filter .tag:first" ).trigger( "click" );
+
+$(".hhhh").hide();
